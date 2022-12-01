@@ -1,0 +1,26 @@
+{
+  "name": "AOC-2022",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/charliehb1/AOC-2022.git",
+  "author": "charliehb1 <61828414+charliehb1@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "eslint": "^8.0.1",
+    "eslint-config-prettier": "^8.5.0",
+    "fs": "^0.0.1-security",
+    "prettier": "^2.8.0",
+    "typescript": "*"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.10",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "eslint-config-standard-with-typescript": "^23.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0"
+  }
+}
