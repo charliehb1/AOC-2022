@@ -3,8 +3,7 @@ import fs from 'fs'
 const calc = () => {
 	let totals: number[] = []
 	let sorted: number[] = []
-	const input = fs
-		.readFileSync('./inputs/001.txt', 'utf8')
+	fs.readFileSync('./inputs/001.txt', 'utf8')
 		.split('\n\n')
 		.map((string) => string.split('\n'))
 		.map((array) => array.map((string) => parseInt(string)))
